@@ -1,0 +1,5 @@
+/Users/augustogiacomini/java-projects/ecommerce/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/KafkaService.java
+/Users/augustogiacomini/java-projects/ecommerce/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/GsonDeserializer.java
+/Users/augustogiacomini/java-projects/ecommerce/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/KafkaDispatcher.java
+/Users/augustogiacomini/java-projects/ecommerce/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/GsonSerializer.java
+/Users/augustogiacomini/java-projects/ecommerce/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/ConsumerFunction.java
