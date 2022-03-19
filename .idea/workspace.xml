@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dd4e8ca-b72e-436a-973a-0d1185776bc9" name="Default Changelist" comment="" />
+    <list default="true" id="4dd4e8ca-b72e-436a-973a-0d1185776bc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/augustogiacomini/ecommerce/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/augustogiacomini/ecommerce/HttpEcommerceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/augustogiacomini/ecommerce/NewOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/augustogiacomini/ecommerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/serviceusers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/augustogiacomini/ecommerce/CreateUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/augustogiacomini/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/br/com/augustogiacomini/ecommerce/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commom-kafka/target/classes/br/com/augustogiacomini/ecommerce/ConsumerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/target/classes/br/com/augustogiacomini/ecommerce/ConsumerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commom-kafka/target/classes/br/com/augustogiacomini/ecommerce/KafkaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/target/classes/br/com/augustogiacomini/ecommerce/KafkaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-http-ecommerce/servicehttpecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/augustogiacomini/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/augustogiacomini/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/augustogiacomini/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/augustogiacomini/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/augustogiacomini/ecommerce/FraudDetectorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/augustogiacomini/ecommerce/FraudDetectorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/augustogiacomini/ecommerce/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/augustogiacomini/ecommerce/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/augustogiacomini/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/augustogiacomini/ecommerce/NewOrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/augustogiacomini/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/augustogiacomini/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/target/classes/br/com/augustogiacomini/ecommerce/NewOrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/target/classes/br/com/augustogiacomini/ecommerce/NewOrderMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-new-order/target/classes/br/com/augustogiacomini/ecommerce/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/target/classes/br/com/augustogiacomini/ecommerce/Order.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,6 +59,16 @@
         <option value="Interface" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -24,7 +79,12 @@
     </option>
   </component>
   <component name="ProjectId" id="26KUSZLR2R2kAtQLlmvDvNdYVVI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/commom-kafka/src/main/java" />
@@ -46,10 +106,17 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.augustogiacomini.ecommerce" />
+      <recent name="br.com.augustogiacomini" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.augustogiacomini" />
       <recent name="br.com.augustogiacomini.ecommerce" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewOrderMain">
+  <component name="RunManager" selected="Application.LogService">
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.augustogiacomini.ecommerce.EmailService" />
       <module name="serviceemail" />
@@ -103,6 +170,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpEcommerceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.augustogiacomini.ecommerce.HttpEcommerceService" />
+      <module name="servicehttpecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.augustogiacomini.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.augustogiacomini.ecommerce.LogService" />
       <module name="servicelog" />
@@ -130,18 +210,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FraudDetectorService (1)" />
       <item itemvalue="Application.EmailService" />
       <item itemvalue="Application.FraudDetectorService" />
       <item itemvalue="Application.LogService" />
       <item itemvalue="Application.NewOrderMain" />
+      <item itemvalue="Application.HttpEcommerceService" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewOrderMain" />
-        <item itemvalue="Application.LogService" />
-        <item itemvalue="Application.EmailService" />
+        <item itemvalue="Application.HttpEcommerceService" />
         <item itemvalue="Application.FraudDetectorService" />
+        <item itemvalue="Application.EmailService" />
+        <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.NewOrderMain" />
       </list>
     </recent_temporary>
   </component>
@@ -157,11 +238,29 @@
       <updated>1647171771786</updated>
       <workItem from="1647171775880" duration="10192000" />
       <workItem from="1647182687639" duration="17000" />
-      <workItem from="1647182710099" duration="6540000" />
+      <workItem from="1647182710099" duration="7394000" />
+      <workItem from="1647708450724" duration="2432000" />
+      <workItem from="1647711020193" duration="7445000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

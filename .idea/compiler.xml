@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="servicefrauddetector" />
-        <module name="serviceemail" />
-        <module name="servicelog" />
-        <module name="serviceneworder" />
         <module name="commomkafka" />
+        <module name="servicelog" />
+        <module name="servicehttpecommerce" />
+        <module name="serviceusers" />
+        <module name="serviceneworder" />
+        <module name="serviceemail" />
+        <module name="servicefrauddetector" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
