@@ -1,54 +1,38 @@
 package br.com.augustogiacomini.ecommerce;
 
+
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
-import java.math.BigDecimal;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
-public class FraudDetectorService {
+public class ReadingReportService {
 
-    public static void main(String[] args) {
-        var fraudService = new FraudDetectorService();
-        try (var service = new KafkaService<>(FraudDetectorService.class.getSimpleName(),
-                "ECOMMERCE_NEW_ORDER",
-                fraudService::parse,
-                Order.class,
+    private final Path SOURCE = new File("src/main/resources/report.txt").toPath();
+
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        var reportService = new ReadingReportService();
+        try (var service = new KafkaService<>(ReadingReportService.class.getSimpleName(),
+                "ECOMMERCE_USER_GENERATE_READING_REPORT",
+                reportService::parse,
                 Map.of())) {
             service.run();
         }
     }
 
-    private final KafkaDispatcher<Order> orderDispatcher = new KafkaDispatcher<>();
-
-    private void parse(ConsumerRecord<String, Order> record) throws ExecutionException, InterruptedException {
+    private void parse(ConsumerRecord<String, Message<User>> record) throws IOException {
         System.out.println("----------------------------------------");
-        System.out.println("Processing new order, checking for fraud");
-        System.out.println(record.key());
-        System.out.println(record.value());
-        System.out.println(record.partition());
-        System.out.println(record.offset());
+        System.out.println("Processing report for " + record.value());
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            // ignoring
-            e.printStackTrace();
-        }
+        var message = record.value();
+        var user = message.getPayload();
+        var target = new File(user.getReportPath());
+        IO.copyTo(SOURCE, target);
+        IO.append(target, "Created for " + user.getUuid());
 
-        var order = record.value();
-
-        if (isFraud(order)) {
-            // pretending that the fraud happens when the amount is >= 4500
-            System.out.println("Order is a fraud!!! " + order);
-            orderDispatcher.send("ECOMMERCE_ORDER_REJECTED", order.getEmail(), order);
-        } else {
-            System.out.println("Approved: " + order);
-            orderDispatcher.send("ECOMMERCE_ORDER_APPROVED", order.getEmail(), order);
-        }
-    }
-
-    private boolean isFraud(Order order) {
-        return order.getAmount().compareTo(new BigDecimal("4500")) >= 0;
+        System.out.println("File created: " + target.getAbsolutePath());
     }
 }
